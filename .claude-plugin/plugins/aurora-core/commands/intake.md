@@ -1,3 +1,8 @@
+---
+description: Process documents from Inbox folder
+argument-hint: [filename] [--dry-run] [--force]
+---
+
 # Intake Command
 
 Process documents from the Inbox folder into the Aurora system.

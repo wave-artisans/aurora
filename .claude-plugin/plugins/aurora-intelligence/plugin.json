@@ -6,6 +6,10 @@
     "name": "Aurora System"
   },
   "homepage": "https://github.com/wave-artisans/aurora",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wave-artisans/aurora"
+  },
   "license": "MIT",
   "keywords": [
     "ai",
@@ -16,6 +20,7 @@
     "synthesis",
     "content"
   ],
+  "category": "productivity",
   "commands": "./commands/",
   "skills": "./skills/"
 }

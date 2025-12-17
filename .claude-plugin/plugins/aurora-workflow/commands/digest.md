@@ -1,3 +1,8 @@
+---
+description: Generate periodic activity summary
+argument-hint: [daily|weekly|monthly]
+---
+
 # Digest Command
 
 Generate periodic activity summaries.

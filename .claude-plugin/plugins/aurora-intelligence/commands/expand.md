@@ -1,3 +1,8 @@
+---
+description: Suggest content additions for document
+argument-hint: <document> [--section <section>] [--focus <focus>]
+---
+
 # Expand Command
 
 Suggest additions and elaborations for a document.

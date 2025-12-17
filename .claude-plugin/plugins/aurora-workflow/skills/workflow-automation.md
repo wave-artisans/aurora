@@ -1,3 +1,8 @@
+---
+name: workflow-automation
+description: Proactive workflow assistance and automation. Use when generating digests, extracting follow-up reminders, synthesizing project status, or detecting stale content.
+---
+
 # Workflow Automation Skill
 
 Proactive assistance and workflow automation for the Aurora system.

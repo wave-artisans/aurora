@@ -1,3 +1,8 @@
+---
+description: Surface commitments and deadlines
+argument-hint:
+---
+
 # Catch Wave Command
 
 Surface commitments and deadlines.

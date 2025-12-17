@@ -1,3 +1,8 @@
+---
+description: Get answers from knowledge base
+argument-hint: <question>
+---
+
 # Ask Command
 
 Ask questions and get answers from your knowledge base.

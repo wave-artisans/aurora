@@ -1,3 +1,8 @@
+---
+description: Enter rest mode (Recharge)
+argument-hint:
+---
+
 # Float Command
 
 Shift to rest mode - surface Recharge items.

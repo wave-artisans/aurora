@@ -1,3 +1,8 @@
+---
+description: Search documents in knowledge base
+argument-hint: <query> [options]
+---
+
 # Retrieve Command
 
 Search and find documents in the Aurora knowledge base.

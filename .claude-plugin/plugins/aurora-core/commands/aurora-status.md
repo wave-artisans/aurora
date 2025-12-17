@@ -1,3 +1,8 @@
+---
+description: Visualize Aurora mode color balance
+argument-hint: [--period <period>]
+---
+
 # Aurora Status Command
 
 Visualize your color balance across all documents and activity.

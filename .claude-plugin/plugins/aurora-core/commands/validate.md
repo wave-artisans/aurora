@@ -1,3 +1,8 @@
+---
+description: Check system health and consistency
+argument-hint: [--check <name>] [--fix] [--report]
+---
+
 # Validate Command
 
 Run consistency checks on the Aurora knowledge base.

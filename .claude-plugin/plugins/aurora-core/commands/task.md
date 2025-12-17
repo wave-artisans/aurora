@@ -1,3 +1,8 @@
+---
+description: Manage tasks in Aurora task system
+argument-hint: <action> [options]
+---
+
 # Task Command
 
 Manage tasks in the Aurora task system.

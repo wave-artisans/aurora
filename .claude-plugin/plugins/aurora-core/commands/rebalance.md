@@ -1,3 +1,8 @@
+---
+description: Get AI recommendations for mode balance
+argument-hint:
+---
+
 # Rebalance Command
 
 Get AI recommendations for mode balance.

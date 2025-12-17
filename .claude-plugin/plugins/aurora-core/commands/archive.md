@@ -1,3 +1,8 @@
+---
+description: Archive document to Done-Dusted
+argument-hint: <document> [--with-assets] [--note <text>]
+---
+
 # Archive Command
 
 Move a document to Done & Dusted.

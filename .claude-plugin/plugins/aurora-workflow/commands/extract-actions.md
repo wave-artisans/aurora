@@ -1,3 +1,8 @@
+---
+description: Extract tasks and actions from document
+argument-hint: <document> [--add-tasks]
+---
+
 # Extract Actions Command
 
 Pull tasks and action items from documents.

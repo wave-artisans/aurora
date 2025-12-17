@@ -1,3 +1,8 @@
+---
+name: knowledge-synthesis
+description: Cross-document intelligence and synthesis. Use when answering questions across multiple documents, detecting contradictions, identifying knowledge gaps, or discovering document relationships.
+---
+
 # Knowledge Synthesis Skill
 
 Cross-document intelligence for the Aurora system.

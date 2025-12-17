@@ -1,3 +1,8 @@
+---
+description: Move document between Aurora modes
+argument-hint: <document> <target-mode> [--with-assets]
+---
+
 # Move Command
 
 Move a document between Aurora modes.

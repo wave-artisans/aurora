@@ -1,3 +1,8 @@
+---
+description: Enter focus mode (Deep Field)
+argument-hint: [project]
+---
+
 # Paddle Command
 
 Enter focus mode - show Deep Field priorities.

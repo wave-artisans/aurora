@@ -1,3 +1,8 @@
+---
+description: Analyze differences between documents
+argument-hint: <doc1> <doc2> [--aspect <aspect>]
+---
+
 # Compare Command
 
 Analyze differences between documents.

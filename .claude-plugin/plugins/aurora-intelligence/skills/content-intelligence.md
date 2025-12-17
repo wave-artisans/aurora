@@ -1,3 +1,8 @@
+---
+name: content-intelligence
+description: Document understanding and content analysis. Use when summarizing documents, extracting entities, analyzing sentiment, scoring document quality, or extracting actions and decisions.
+---
+
 # Content Intelligence Skill
 
 Document understanding and content analysis for the Aurora system.

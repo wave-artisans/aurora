@@ -1,3 +1,8 @@
+---
+description: Regenerate table of contents files
+argument-hint: [folder] [--all] [--dry-run]
+---
+
 # ToC Update Command
 
 Regenerate table of contents files.

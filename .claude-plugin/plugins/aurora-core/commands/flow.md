@@ -1,3 +1,8 @@
+---
+description: Move document with transition tracking
+argument-hint: <document> <target-mode> [--reason <text>]
+---
+
 # Flow Command
 
 Move a document between modes with transition tracking.

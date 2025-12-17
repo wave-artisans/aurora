@@ -1,3 +1,8 @@
+---
+description: Analyze color patterns over time
+argument-hint: [daily|weekly|monthly]
+---
+
 # Rhythm Command
 
 Analyze your color patterns over time.

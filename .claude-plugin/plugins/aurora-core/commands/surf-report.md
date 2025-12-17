@@ -1,3 +1,8 @@
+---
+description: Get energy check and mode recommendation
+argument-hint:
+---
+
 # Surf Report Command
 
 Get your energy check and mode recommendation.

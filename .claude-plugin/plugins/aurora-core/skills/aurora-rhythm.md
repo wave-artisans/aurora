@@ -1,3 +1,8 @@
+---
+name: aurora-rhythm
+description: Mode intelligence and energy pattern management. Use when analyzing color balance, detecting burnout patterns, generating surf reports, or managing mode transitions.
+---
+
 # Aurora Rhythm Skill
 
 Mode intelligence and energy pattern management for the Aurora system.
