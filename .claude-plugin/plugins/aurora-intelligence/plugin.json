@@ -1,0 +1,20 @@
+{
+  "name": "aurora-intelligence",
+  "version": "1.0.0",
+  "description": "AI-powered document intelligence for Aurora - Q&A, summarization, reports, briefs, and content transformation",
+  "author": {
+    "name": "Aurora System"
+  },
+  "homepage": "https://github.com/bertrand/aurora",
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "intelligence",
+    "summarization",
+    "reports",
+    "qa",
+    "synthesis",
+    "content"
+  ],
+  "commands": "./commands/"
+}

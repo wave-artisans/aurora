@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local configuration
+.local/
+*.local.md
+
+# Build outputs
+_build/
+_site/
+dist/
+
+# Large binary files (consider Git LFS if needed)
+# *.psd
+# *.ai
+# *.mov

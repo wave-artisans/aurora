@@ -1,0 +1,22 @@
+{
+  "name": "aurora-core",
+  "version": "1.0.0",
+  "description": "Core Aurora Knowledge Management System - 7-mode color system for organizing knowledge, tasks, and creative work",
+  "author": {
+    "name": "Aurora System"
+  },
+  "homepage": "https://github.com/bertrand/aurora",
+  "license": "MIT",
+  "keywords": [
+    "aurora",
+    "knowledge-management",
+    "magi",
+    "markdown",
+    "organization",
+    "productivity",
+    "modes",
+    "energy"
+  ],
+  "commands": "./commands/",
+  "agents": "./agents/"
+}

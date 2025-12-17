@@ -1,0 +1,19 @@
+{
+  "name": "aurora-workflow",
+  "version": "1.0.0",
+  "description": "Workflow automation for Aurora - digests, action extraction, trend analysis, and proactive assistance",
+  "author": {
+    "name": "Aurora System"
+  },
+  "homepage": "https://github.com/bertrand/aurora",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "automation",
+    "digest",
+    "trends",
+    "actions",
+    "extraction"
+  ],
+  "commands": "./commands/"
+}
