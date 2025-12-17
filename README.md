@@ -1,179 +1,175 @@
----
-doc-id: aurora-readme
-title: Aurora Knowledge Management System
-description: A 7-mode color system for organizing knowledge, tasks, and creative work
-aurora-mode: null
-tags: [system, documentation, meta]
-created: 2025-12-17
-updated: 2025-12-17
-author: Athena
-version: 1.0.0
----
+# Aurora Plugin Collection
 
-# Aurora Knowledge Management System
+> A 7-mode color system for organizing knowledge by energy and intent, not task status.
 
-> *A system for people who build, play, surf, and create. Color = Energy, not Status.*
-
-Aurora is a git-based document and knowledge management system powered by Claude. It uses a 7-mode color system to organize your work by **energy and intent**, not just task status.
-
-## Installation (Claude Code Plugin Marketplace)
-
-Aurora is distributed as a Claude Code plugin marketplace. Install the plugins to add Aurora capabilities to any project.
-
-### Add the Aurora Marketplace
-
-```
-/plugin marketplace add owner/aurora
-```
-
-### Install Aurora Plugins
-
-**All-in-one (recommended):**
-```
-/plugin install aurora-core@aurora
-/plugin install aurora-intelligence@aurora
-/plugin install aurora-workflow@aurora
-```
-
-**Or install individually:**
-
-| Plugin | Description |
-|--------|-------------|
-| `aurora-core` | Essential: modes, intake, retrieval, validation |
-| `aurora-intelligence` | AI-powered: Q&A, reports, briefs, summarization |
-| `aurora-workflow` | Automation: digests, actions, trends |
-
-### Initialize Aurora in Your Repository
-
-After installing plugins:
-```
-/aurora-init
-```
-
-This creates the complete Aurora folder structure in your current repository.
-
-## The Seven Modes
-
-| Color | Mode | Folder | Vibe |
-|-------|------|--------|------|
-| 🟣 | Explore | [[Curiosity-Queue/TOC\|Curiosity Queue]] | The horizon. Curiosity without agenda. |
-| 🟢 | Focus | [[Deep-Field/TOC\|Deep Field]] | The zone. Headphones on, flow state. |
-| 🔴 | Commitments | [[Waves-Pumping/TOC\|Waves Pumping]] | The pulse. Deadlines and promises. |
-| 🟡 | Ops | [[Quick-Ops/TOC\|Quick Ops]] | The backbone. Admin and systems. |
-| 🟠 | Collab | [[Jam-Sync/TOC\|Jam & Sync]] | The vibe-share. Co-creating together. |
-| 🔵 | Life | [[Recharge/TOC\|Recharge]] | The ride. Surf, play, rest. |
-| ⚫️ | Archive | [[Done-Dusted/TOC\|Done & Dusted]] | The echo. Completed work. |
-
-## Quick Links
-
-- [[TOC\|Global Table of Contents]]
-- [[Tasks/tasks.json\|Task Tracker]]
-- [[Library/TOC\|Library (Evergreen)]]
-- [[Inbox/\|Inbox (Intake)]]
-- [[CONVENTIONS\|Document Conventions]]
-
-## Core Commands
-
-### Aurora Mode Management
-```
-/surf-report          # What mode should you be in right now?
-/aurora-status        # Visualize your color balance
-/rhythm weekly        # See your patterns over time
-/paddle               # Enter deep work mode (Deep Field)
-/float                # Shift to rest mode (Recharge)
-/catch-wave           # Check deadlines (Waves Pumping)
-```
-
-### Document Operations
-```
-/intake               # Process documents from Inbox
-/retrieve <query>     # Search your knowledge base
-/ask <question>       # Get answers from your docs
-/validate             # Check system health
-```
-
-### Intelligence
-```
-/digest daily         # Daily activity summary
-/brief <topic>        # Executive summary on any topic
-/report <topic>       # Full report from multiple sources
-/extract-actions      # Pull tasks from meeting notes
-```
-
-## Getting Started
-
-1. Drop new content into `Inbox/`
-2. Run `/intake` to process with MAGI metadata
-3. Documents flow to appropriate Aurora mode folders
-4. Use `/surf-report` to check your energy balance
-5. Surf between modes: `/paddle` for focus, `/float` for rest
+Aurora is a Claude Code plugin marketplace that transforms any git repository into a powerful knowledge management system. It beats Notion, Obsidian, and similar tools by leveraging Claude's intelligence for document understanding, synthesis, and proactive assistance.
 
 ## The Aurora Philosophy
 
-- **Color = Energy, not Status**: Red isn't "urgent" - it's *committed*
-- **Fluid Movement**: Projects naturally evolve 🟣→🟢→🔴→⚫️
-- **Weekly Rhythm**: Look at your color balance as a waveform
-- **System That Breathes**: When feeling off, change colors, not tasks
+**Color = Energy, not Status.**
 
----
+Red isn't "urgent" - it's *committed*. Green isn't "active" - it's *focused*. Aurora organizes your work by how you engage with it, not by arbitrary priority levels.
 
-*Like surfing: know when to paddle hard, when to ride, and when to float.*
+## The Seven Modes
 
-## Plugin Details
+| Color | Mode | Folder | Energy |
+|-------|------|--------|--------|
+| 🟣 | Explore | `Curiosity-Queue/` | Curiosity without agenda |
+| 🟢 | Focus | `Deep-Field/` | Deep creative work |
+| 🔴 | Commitments | `Waves-Pumping/` | Deadlines and promises |
+| 🟡 | Ops | `Quick-Ops/` | Admin and systems |
+| 🟠 | Collab | `Jam-Sync/` | Co-creation |
+| 🔵 | Life | `Recharge/` | Rest and balance |
+| ⚫️ | Archive | `Done-Dusted/` | Completed work |
 
-### aurora-core (16 commands)
-Essential operations for managing your Aurora knowledge base.
-
-**Mode Management:** `/surf-report`, `/aurora-status`, `/paddle`, `/float`, `/catch-wave`, `/rhythm`, `/flow`, `/rebalance`
-
-**Document Operations:** `/aurora-init`, `/intake`, `/validate`, `/retrieve`, `/task`, `/toc-update`, `/move`, `/archive`
-
-### aurora-intelligence (9 commands)
-AI-powered document understanding and generation.
-
-**Q&A & Synthesis:** `/ask`, `/summarize`, `/relate`
-
-**Document Generation:** `/brief`, `/report`
-
-**Content Transformation:** `/compare`, `/expand`, `/simplify`, `/translate`
-
-### aurora-workflow (5 commands)
-Automation and analysis tools.
-
-**Periodic:** `/digest`
-
-**Analysis:** `/gaps`, `/stale`, `/trends`
-
-**Extraction:** `/extract-actions`
-
-## Reference
-
-- [[docs/aurora\|Aurora System Philosophy]]
-- [[CONVENTIONS\|MAGI & Naming Conventions]]
-- [[Library/_templates/\|Document Templates]]
-
-## Marketplace Structure
+## Installation
 
 ```
-.claude-plugin/
-├── marketplace.json           # Marketplace definition
-└── plugins/
-    ├── aurora-core/          # Essential operations
-    │   ├── plugin.json
-    │   ├── commands/         # 16 commands
-    │   └── agents/           # Aurora system agent
-    ├── aurora-intelligence/  # AI-powered features
-    │   ├── plugin.json
-    │   └── commands/         # 9 commands
-    └── aurora-workflow/      # Automation
-        ├── plugin.json
-        └── commands/         # 5 commands
+/plugin marketplace add wave-artisans/aurora
+/plugin install aurora-core@aurora
+/aurora-init
+```
+
+**Optional plugins:**
+```
+/plugin install aurora-intelligence@aurora   # AI-powered features
+/plugin install aurora-workflow@aurora       # Automation
+```
+
+## Quick Start
+
+1. **Initialize** - Run `/aurora-init` in any git repository
+2. **Intake** - Drop files into `Inbox/`, run `/intake`
+3. **Flow** - Use `/surf-report` to check your energy balance
+
+## Available Plugins
+
+### aurora-core (Essential)
+16 commands for system initialization, mode management, and document operations.
+
+**Mode Commands:**
+- `/surf-report` - What mode should you be in right now?
+- `/aurora-status` - Visualize your color balance
+- `/paddle` - Enter focus mode (🟢 Deep Field)
+- `/float` - Enter rest mode (🔵 Recharge)
+- `/catch-wave` - Check your commitments (🔴)
+- `/rhythm` - See your patterns over time
+
+**Document Commands:**
+- `/aurora-init` - Initialize Aurora in any repository
+- `/intake` - Process documents from Inbox
+- `/retrieve` - Search your knowledge base
+- `/validate` - Check system health
+- `/task` - Manage tasks
+- `/move`, `/archive` - Move documents between modes
+
+### aurora-intelligence (Recommended)
+9 AI-powered commands for document understanding and synthesis.
+
+- `/ask <question>` - Get answers from your knowledge base
+- `/summarize` - Multi-level summarization
+- `/brief <topic>` - Executive summary on any topic
+- `/report <topic>` - Comprehensive reports from multiple sources
+- `/compare`, `/expand`, `/simplify`, `/translate` - Content transformation
+- `/relate` - Discover document relationships
+
+### aurora-workflow (Optional)
+5 automation commands for proactive assistance.
+
+- `/digest daily|weekly` - Periodic activity summaries
+- `/extract-actions` - Pull tasks from meeting notes
+- `/gaps` - Find missing documentation
+- `/stale` - Identify outdated content
+- `/trends` - Analyze topic evolution
+
+## Why Aurora Beats Notion
+
+| Feature | Notion | Aurora + Claude |
+|---------|--------|-----------------|
+| Search | Keyword only | Natural language + context |
+| Summarization | None | Multi-level (1-line to full report) |
+| Cross-doc Q&A | None | Synthesized answers with citations |
+| Relationship Discovery | Manual | AI auto-detects connections |
+| Action Extraction | Manual | Auto-extracts from meeting notes |
+| Report Generation | Templates only | AI synthesizes from sources |
+| Ownership | Cloud-locked | Git-based, you own everything |
+| Editor | Notion only | Any editor (iA Writer, VS Code, etc.) |
+| Offline | Limited | Full offline with git |
+| Cost | $$/user/month | Free (just Claude usage) |
+
+## Example Daily Flow
+
+```
+Morning:   /surf-report      → "Heavy 🔴 week. Consider 🔵 time today."
+Focus:     /paddle           → Shows Deep Field priorities
+Midday:    /catch-wave       → Check commitments before meeting
+Evening:   /float            → Surface Recharge items
+Weekly:    /rhythm weekly    → "40% 🔴, 30% 🟢, 10% 🔵 - add blue"
+```
+
+## MAGI Front Matter
+
+All documents use MAGI (Markdown for Agent Guidance & Instruction) YAML front matter:
+
+```yaml
+---
+doc-id: unique-identifier
+title: Document Title
+description: Brief summary
+aurora-mode: focus
+tags: [tag1, tag2]
+created: 2025-12-17
+updated: 2025-12-17
+---
+```
+
+## Documentation
+
+After installing, find detailed documentation in:
+- Plugin assets: `.claude-plugin/plugins/aurora-core/assets/docs/`
+  - `philosophy.md` - The Aurora philosophy in depth
+  - `conventions.md` - MAGI and naming standards
+  - `quick-start.md` - Getting started guide
+
+## Core Principles
+
+1. **Color = Energy, not Status** - Modes represent how you engage, not priority
+2. **Fluid Movement** - Projects naturally flow 🟣→🟢→🔴→⚫️
+3. **Weekly Rhythm** - Balance colors like a waveform
+4. **System That Breathes** - Change modes when energy shifts
+
+## Repository Structure
+
+This repository is a **plugin marketplace**. After installation, `/aurora-init` creates the actual Aurora folder structure in your target repository:
+
+```
+your-repo/
+├── Inbox/                   # Intake zone
+├── Tasks/                   # Task tracking
+├── Curiosity-Queue/         # 🟣 Explore
+├── Deep-Field/              # 🟢 Focus
+├── Waves-Pumping/           # 🔴 Commitments
+├── Quick-Ops/               # 🟡 Ops
+├── Jam-Sync/                # 🟠 Collab
+├── Recharge/                # 🔵 Life
+├── Done-Dusted/             # ⚫️ Archive
+├── Library/                 # Evergreen content
+│   └── _templates/          # MAGI templates
+└── .magi/                   # Metadata index
 ```
 
 ## Contributing
 
-To contribute plugins to Aurora:
+To contribute to Aurora:
 1. Fork this repository
-2. Add your plugin to `.claude-plugin/plugins/`
-3. Update `marketplace.json` with your plugin entry
+2. Add or modify plugins in `.claude-plugin/plugins/`
+3. Update `marketplace.json` if adding new plugins
 4. Submit a pull request
+
+## License
+
+MIT
+
+---
+
+*Like surfing: know when to paddle hard, when to ride, and when to float.*

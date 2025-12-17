@@ -5,7 +5,7 @@
   "author": {
     "name": "Aurora System"
   },
-  "homepage": "https://github.com/bertrand/aurora",
+  "homepage": "https://github.com/wave-artisans/aurora",
   "license": "MIT",
   "keywords": [
     "aurora",
@@ -18,5 +18,7 @@
     "energy"
   ],
   "commands": "./commands/",
-  "agents": "./agents/"
+  "agents": "./agents/",
+  "skills": "./skills/",
+  "assets": "./assets/"
 }

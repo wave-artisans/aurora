@@ -5,7 +5,7 @@
   "author": {
     "name": "Aurora System"
   },
-  "homepage": "https://github.com/bertrand/aurora",
+  "homepage": "https://github.com/wave-artisans/aurora",
   "license": "MIT",
   "keywords": [
     "workflow",
@@ -15,5 +15,6 @@
     "actions",
     "extraction"
   ],
-  "commands": "./commands/"
+  "commands": "./commands/",
+  "skills": "./skills/"
 }
