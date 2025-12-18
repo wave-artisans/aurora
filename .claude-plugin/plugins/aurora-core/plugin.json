@@ -6,10 +6,7 @@
     "name": "Aurora System"
   },
   "homepage": "https://github.com/wave-artisans/aurora",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wave-artisans/aurora"
-  },
+  "repository": "https://github.com/wave-artisans/aurora",
   "license": "MIT",
   "keywords": [
     "aurora",
@@ -21,9 +18,7 @@
     "modes",
     "energy"
   ],
-  "category": "productivity",
   "commands": "./commands/",
-  "agents": "./agents/",
-  "skills": "./skills/",
-  "assets": "./assets/"
+  "agents": "./agents/aurora-system.md",
+  "skills": "./skills/"
 }
