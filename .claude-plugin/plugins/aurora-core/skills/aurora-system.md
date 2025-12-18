@@ -96,7 +96,7 @@ This system is optimized for iA Writer:
 | Image in assets | `image.png` |
 | Binary in assets | `[title](./assets/file.pdf)` |
 | Inline include | `content.md` |
-| Wiki reference | `[[Path/Doc\|Title]]` |
+| Wiki reference | `[[Path/Doc|Title]]` |
 
 ## Mode Classification Guidelines
 

@@ -218,4 +218,4 @@ Use `/` for hierarchy:
 
 ---
 
-*Parent: [[README\|Home]]*
+*Parent: [[README|Home]]*

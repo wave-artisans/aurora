@@ -140,18 +140,18 @@ updated: {TODAY}
 
 | Color | Mode | Folder |
 |-------|------|--------|
-| 🟣 | Explore | [[Curiosity-Queue/TOC\|Curiosity Queue]] |
-| 🟢 | Focus | [[Deep-Field/TOC\|Deep Field]] |
-| 🔴 | Commitments | [[Waves-Pumping/TOC\|Waves Pumping]] |
-| 🟡 | Ops | [[Quick-Ops/TOC\|Quick Ops]] |
-| 🟠 | Collab | [[Jam-Sync/TOC\|Jam & Sync]] |
-| 🔵 | Life | [[Recharge/TOC\|Recharge]] |
-| ⚫️ | Archive | [[Done-Dusted/TOC\|Done & Dusted]] |
+| 🟣 | Explore | [[Curiosity-Queue/TOC|Curiosity Queue]] |
+| 🟢 | Focus | [[Deep-Field/TOC|Deep Field]] |
+| 🔴 | Commitments | [[Waves-Pumping/TOC|Waves Pumping]] |
+| 🟡 | Ops | [[Quick-Ops/TOC|Quick Ops]] |
+| 🟠 | Collab | [[Jam-Sync/TOC|Jam & Sync]] |
+| 🔵 | Life | [[Recharge/TOC|Recharge]] |
+| ⚫️ | Archive | [[Done-Dusted/TOC|Done & Dusted]] |
 
 ## Resources
 
-- [[Library/TOC\|Library (Evergreen)]]
-- [[Tasks/tasks.json\|Task Tracker]]
+- [[Library/TOC|Library (Evergreen)]]
+- [[Tasks/tasks.json|Task Tracker]]
 ```
 
 **TOC.md:**
@@ -277,7 +277,7 @@ See the spec[^1] for details.
 | External | `[title](https://...)` |
 | Image | `image.png` |
 | Binary | `[title](./assets/file.pdf)` |
-| Wiki | `[[Path/Doc\|Title]]` |
+| Wiki | `[[Path/Doc|Title]]` |
 
 ---
 
