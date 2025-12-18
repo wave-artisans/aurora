@@ -133,8 +133,8 @@ updated: {TODAY}
 
 ## Navigation
 
-- [[TOC|Table of Contents]]
-- [[CONVENTIONS|Conventions]]
+- [[/TOC|Table of Contents]]
+- [[/CONVENTIONS|Conventions]]
 
 ## The Seven Modes
 
@@ -204,7 +204,7 @@ updated: {TODAY}
 
 ---
 
-*[[README|← Back to Home]]*
+*[[/README|← Back to Home]]*
 ```
 
 **CONVENTIONS.md:**
@@ -281,7 +281,7 @@ See the spec[^1] for details.
 
 ---
 
-*[[README|← Back to Home]]*
+*[[/README|← Back to Home]]*
 ```
 
 **.gitignore:**
@@ -332,7 +332,7 @@ updated: {TODAY}
 
 ---
 
-*[[TOC|← Global TOC]] | [[README|Home]]*
+*[[/TOC|← Global TOC]] | [[/README|Home]]*
 ```
 
 Create for each mode:

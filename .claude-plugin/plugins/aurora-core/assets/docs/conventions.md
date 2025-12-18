@@ -162,7 +162,7 @@ Just the filename on its own line. iA Writer transcludes the content.
 ```markdown
 [[Folder/Document|Display Title]]
 [[Deep-Field/project-alpha/spec|Alpha Spec]]
-[[TOC|Table of Contents]]
+[[/TOC|Table of Contents]]
 ```
 
 ---
@@ -218,4 +218,4 @@ Use `/` for hierarchy:
 
 ---
 
-*Parent: [[README|Home]]*
+*Parent: [[/README|Home]]*
